@@ -1,0 +1,95 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color: #40514e;
+}
+
+header{
+    background-color: honeydew;
+    position: relative;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #66bfbf;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    font-size: 5rem;
+    line-height: 1;
+}
+h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+#about-me {
+    color: #66bfbf;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  padding: 20px;
+}
+
+.brain-img {
+    width: 25%;
+    float: right;
+}
+
+.hobbies-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+ }
+
+ .c-site-footer{
+    background-color: honeydew;
+    padding-bottom: 50px;
+ }
+
+ a{
+  text-decoration: none;
+
+ }
+ button{
+    padding: 10px;
+    background-color: aqua;
+ }
+
+button:hover{
+
+    background-color: rgb(174, 118, 226);
+
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
